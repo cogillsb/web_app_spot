@@ -1,0 +1,11 @@
+curl --request PUT \
+  --url https://api.spotify.com/v1/me/player/play \
+  --header 'Authorization: Bearer BQADgIHFH6oA3oLbLpXLjAxuB9QMse8Ho1_fiVOGKH2fyiKtguxXiRuXbxVb4mDMS5aD1OBZROpMzSN2eKIJvCHhY0NyyTjChGf6EejUSeeogQdWv8P2fEi5FyKEYlcG7bB89vQQQAwxe44a_yqT6Pj6l--uMtV9pJyXmBOIc7XJNBD1EJHj0caDW_gRIMRlZJH4jAYRQtvLyF4G7-pHarsgTrFp_pYjJGG7LgoBhJZb1wig2vm4CAF6c2fV' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "context_uri": "spotify:playlist:7zRfnQLiw75hJpqLTvPqUB",
+    "offset": {
+        "position": 0
+    },
+    "position_ms": 0
+}
